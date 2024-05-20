@@ -3,3 +3,6 @@
 
 ## 2024-04-04
 Homework#2, simple calculator 구현
+
+## 2024-05-20
+Homework#4 구현, 과제가 너무 어려워요 교수님 ㅠㅠㅠ
