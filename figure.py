@@ -18,7 +18,7 @@ class Line:
         Examples:
             >>> myline = figure.Line(10) # 초기 __length의 값을 10으로 지정
         """
-        if type(initial_length) == float or int:
+        if type(initial_length) == float or type(initial_length) == int:
             if initial_length > 0:
                 self.__length = initial_length
             else:
@@ -33,7 +33,7 @@ class Line:
         Examples:
             >>> myline.set_length(3) # 저장 중인 __length의 값을 3으로 변경한다.
         """
-        if type(s_length) == float or int:
+        if type(s_length) == float or type(s_length) == int:
             if s_length > 0:
                 self.__length = s_length
             else:
